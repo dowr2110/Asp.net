@@ -1,0 +1,2 @@
+<add name="PhoneContext" connectionString="Data Source=LAPTOP-9VES5GN3;User Id=foriis;Password=Password123;Initial Catalog=Phonestore;Integrated Security=false"
+ providerName="System.Data.SqlClient"/>

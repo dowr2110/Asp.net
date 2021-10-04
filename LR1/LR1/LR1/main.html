@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--   <br><a href="/handler"> go to handler </a>-->
+    <p>-----------------------------задание 1 (GET)------------------------------------</p>
+    <br><a href="/ADD?ParmA=4&ParmB=88 "> go to ADD </a><br>
+    <p>-----------------------------задание 2 (POST)------------------------------------</p>
+    <form action="/ADD2" method="POST">
+        <p>
+            <label for="a">ParmA : </label>
+            <input type="text" id="a" name="ParmA" />
+        </p>
+        <p>
+            <label for="b">ParmB : </label>
+            <input type="text" id="b" name="ParmB" />
+        </p>
+        <input type="submit" value="send" />
+    </form>
+
+    <p>-----------------------------задание 3 (PUT) postman------------------------------------</p>
+   
+    <p>-----------------------------задание 4 (POST+сумма)------------------------------------</p>
+    <form action="/ADD4" method="POST">
+        <p>
+            <label for="x">X : </label>
+            <input type="text" id="x" name="x" />
+        </p>
+        <p>
+            <label for="y">Y : </label>
+            <input type="text" id="y" name="y" />
+        </p>
+        <input type="submit" value="send" />
+    </form>
+
+
+    <p>-----------------------------задание 5 ------------------------------------</p>
+    <p>---------------GET---------------</p>
+    <a href="/ADD5"> go to another page </a>
+    <!-- <a href="hello.html"> go to another page </a>-->
+
+    <p>---------------POST---------------</p>
+    <form action="#" method="POST">
+        <p>
+            <label for="x">X : </label>
+            <input type="text" id="x" name="x" />
+        </p>
+        <p>
+            <label for="y">Y : </label>
+            <input type="text" id="y" name="y" />
+        </p>
+        <input type="button" value="send" onclick="OnClick_Header2(this.form.x, this.form.y, this.form.z)" />
+        <label for="z">result (x*y) : </label>
+        <input type="text" id="z" name="z" />
+    </form>
+    <script>
+        function OnClick_Header2(x, y, z) {
+            var req = new XMLHttpRequest();
+            if (req) {
+                req.open("POST", "/ADD5", true);
+                req.onreadystatechange = function () {
+                    if (req.readyState == 4) {
+                        if (req.status == 200) {
+                            z.value = req.getResponseHeader("z");
+                        }
+                        else alert("status = " + req.status + "\n" + req.statusText);
+                    }
+                };
+                req.setRequestHeader("x", x.value);
+                req.setRequestHeader("y", y.value);
+                req.send("null");
+            }
+            else alert("error");
+        };
+    </script>
+
+    <p>-----------------------------задание 6 ------------------------------------</p>
+    <p>---------------GET---------------</p>
+    <a href="/ADD6"> go to another page </a>
+
+    <p>---------------POST---------------</p>
+    <form action="/ADD6" method="POST">
+        <p>
+            <label for="x">X : </label>
+            <input type="text" id="x" name="X" />
+        </p>
+        <p>
+            <label for="y">Y : </label>
+            <input type="text" id="y" name="Y" />
+        </p>
+        <input type="submit" value="send" />
+    </form>
+
+    <p>-----------------------------не сам (5) xmlHttpRequest ------------------------------------</p>
+
+    <form action="#" method="POST">
+        <p>
+            <label for="XX">X : </label>
+            <input type="text" id="XX" name="XX" />
+        </p>
+        <p>
+            <label for="YY">Y : </label>
+            <input type="text" id="YY" name="YY" />
+        </p>
+
+        <input type="button" onclick="XmlSend()" value="send" />
+        <label for="ZZ">result (x*y) : </label>
+        <input type="text" id="ZZ" name="ZZ" />
+        <!--<b id="ZZ"></b>-->
+    </form>
+    <script>
+        var req;
+
+        function XmlSend() {
+            req = new XMLHttpRequest();
+            var url = "/ADD55?XX=" + document.getElementById("XX").value + "&YY=" + document.getElementById("YY").value;
+            req.open("POST", url, true);
+            req.onreadystatechange = function () {
+                document.getElementById("ZZ").value = req.responseText;
+                // document.getElementById("ZZ").innerHTML = req.responseText;
+            }
+            req.send();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿@using LR4.Controllers;
+@using LR4.Models;
+@{
+    Layout = null;
+    var sp = ViewBag.Phones;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div style="float:left">
+        <table border="1">
+            <caption><b>телефонный справочник</b></caption>
+            <thead>
+                <tr>
+                    <th>Ид</th>
+                    <th>Фамилия</th>
+                    <th>Номер</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Spravochnik s in sp)
+                {
+                    <tr>
+                        <td>@s.Id</td>
+                        <td>@s.Surname</td>
+                        <td>@s.Phone_number</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div style="float: left; margin-left: 25px;">
+        <a href="~/Dict/Add"> to Add</a>
+        <a href="~/Dict/Update"> to Update</a>
+        <a href="~/Dict/Delete"> to Delete</a>
+
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,46 @@
+﻿@using LR4.Models;
+@{
+    Layout = null;
+    List<Spravochnik> sp = ViewBag.Phones;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <div style="float:left">
+        <table border="1">
+            <caption><b>телефонный справочник</b></caption>
+            <thead>
+                <tr>
+                    <th>Ид</th>
+                    <th>Фамилия</th>
+                    <th>Номер</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Spravochnik s in sp)
+                {
+                    <tr>
+                        <td>@s.Id</td>
+                        <td>@s.Surname</td>
+                        <td>@s.Phone_number</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div style="float: left; margin-left: 25px;">
+        <form method="post" action="~/Dict/DeleteSave">
+            <label for="id">Id :</label>
+            <input name="id" id="id" type="number" />
+            <input type="submit" value="DeleteSave" />
+        </form>
+
+    </div>
+</body>
+</html>

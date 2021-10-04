@@ -1,0 +1,40 @@
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\bin\Debug\Client.exe.config
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\bin\Debug\Client.exe
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\bin\Debug\Client.pdb
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.Form1.resources
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.exe
+C:\Users\ermak\2_SEM\ASP.NET\Client\Client\obj\Debug\Client.pdb
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\bin\Debug\Client.exe.config
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\bin\Debug\Client.exe
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\bin\Debug\Client.pdb
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.Form1.resources
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.exe
+C:\Users\gunko\Downloads\ASP.NET\Client\Client\obj\Debug\Client.pdb
+C:\Users\dowra\Downloads\Client\Client\bin\Debug\Client.exe.config
+C:\Users\dowra\Downloads\Client\Client\bin\Debug\Client.exe
+C:\Users\dowra\Downloads\Client\Client\bin\Debug\Client.pdb
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.Form1.resources
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.exe
+C:\Users\dowra\Downloads\Client\Client\obj\Debug\Client.pdb
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\bin\Debug\Client.exe.config
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\bin\Debug\Client.exe
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\bin\Debug\Client.pdb
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.Form1.resources
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.exe
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR1\Client\Client\obj\Debug\Client.pdb

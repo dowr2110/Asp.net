@@ -1,0 +1,52 @@
+﻿@using LR3.Models
+@{
+    Layout = null;
+    List<Spravocnik> sp = new List<Spravocnik>();
+    sp = ViewBag.Phones;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Updte</title>
+</head>
+<body>
+    <div style="float:left">
+        <table border="1">
+            <caption><b>телефонный справочник</b></caption>
+            <thead>
+                <tr>
+                    <th>Ид</th>
+                    <th>Фамилия</th>
+                    <th>Номер</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Spravocnik s in sp)
+                {
+                    <tr>
+                        <td>@s.id</td>
+                        <td>@s.surname</td>
+                        <td>@s.phone_number</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div style="float: left; margin-left: 25px;">
+        <form method="post" action="~/Dict/UpdateSave">
+            <label for="id">Id :</label>
+            <input name="id" id="id" type="number" />
+            <label for="surname">Surname :</label>
+            <input name="surname" id="surname" type="text" />
+            <label for="number">Number :</label>
+            <input name="number" id="number" type="text" />
+            <input type="submit" value="UpdateSave" />
+        </form>
+
+    </div>
+</body>
+</html>
