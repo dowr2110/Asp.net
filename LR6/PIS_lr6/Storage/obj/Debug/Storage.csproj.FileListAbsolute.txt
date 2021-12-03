@@ -1,0 +1,42 @@
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\Storage.dll
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\Storage.pdb
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\obj\Debug\Storage.csprojAssemblyReference.cache
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\obj\Debug\Storage.csproj.CoreCompileInputs.cache
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\obj\Debug\Storage.csproj.CopyComplete
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\obj\Debug\Storage.dll
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\obj\Debug\Storage.pdb
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\Storage.dll.config
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\EntityFramework.dll
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\EntityFramework.xml
+C:\Users\gunko\OneDrive\study\6th_sem\ProgrammingInternetServers\Лабораторная_работа_06_MVC_4_inj\PIS_lr6\Storage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\Storage.dll.config
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\Storage.dll
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\Storage.pdb
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\EntityFramework.dll
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\EntityFramework.xml
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\obj\Debug\Storage.csprojAssemblyReference.cache
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\obj\Debug\Storage.csproj.CoreCompileInputs.cache
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\obj\Debug\Storage.csproj.CopyComplete
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\obj\Debug\Storage.dll
+C:\Users\dowra\Downloads\folder\PIS_lr6\Storage\obj\Debug\Storage.pdb
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\Storage.dll.config
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\Storage.dll
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\Storage.pdb
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\EntityFramework.dll
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\Newtonsoft.Json.dll
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\EntityFramework.xml
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\bin\Debug\Newtonsoft.Json.xml
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\obj\Debug\Storage.csprojAssemblyReference.cache
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\obj\Debug\Storage.csproj.CoreCompileInputs.cache
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\obj\Debug\Storage.csproj.CopyComplete
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\obj\Debug\Storage.dll
+C:\Довр\ФИТ\4 КУРС\7 сем\программирование в интеернет(ПИ)\лабораторные работы\LR6\PIS_lr6\Storage\obj\Debug\Storage.pdb

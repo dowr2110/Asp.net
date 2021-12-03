@@ -1,0 +1,25 @@
+﻿@using Storage
+@{ 
+    Layout = "../Shared/DictionaryLayout.cshtml";
+    ViewBag.Title = "Delete Telephone";
+    List<Telephone> telephones = ViewBag.Telephones;
+}
+
+@foreach (Telephone telephone in telephones)
+{
+     @Html.Partial("TelephoneNote", telephone)
+}
+<br/>
+
+@using (Html.BeginForm("DeleteSave", "Dictionary", FormMethod.Post))
+{
+    <div>
+        <p> <b>Id: </b> <input type="number" id="id" name="id" min="0"></p>
+        <p><input type="submit"></p>
+    </div>
+}
+
+@section Footer 
+{
+    I'm delete footer.
+}

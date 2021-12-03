@@ -1,0 +1,23 @@
+﻿@using Storage
+@using PIS_lr6.Helpers
+@{ 
+    Layout = "../Shared/DictionaryLayout.cshtml";
+    ViewBag.Title = "Update Telephone";
+    List<Telephone> telephones = ViewBag.Telephones;
+}
+
+@foreach (Telephone telephone in telephones)
+{
+    @Html.Partial("TelephoneNote", telephone)
+}
+<br/>
+
+@using (Html.BeginForm("UpdateSave", "Dictionary", FormMethod.Post))
+{
+    @FormHelper.UpdateForm(Html);
+}
+
+@section Footer 
+{
+    I'm update footer.
+}

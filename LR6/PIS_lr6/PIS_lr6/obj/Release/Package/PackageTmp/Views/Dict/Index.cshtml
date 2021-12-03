@@ -1,0 +1,27 @@
+﻿@using PIS_lr3.Models
+@{ 
+    Layout = null;
+    List<Telephone> telephones = ViewBag.Telephones; 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Telephone Dictionary</title>
+</head>
+<body>
+    <div>
+        <h2>Telephone Dictionary</h2>
+
+        @foreach (Telephone telephone in telephones)
+        {
+            <p>[@telephone.Id] @telephone.Surname - @telephone.Number</p>    
+        }
+        <h2>@Html.ActionLink("Add Telephone", "Add")</h2>
+        <h2>@Html.ActionLink("Update Telephone", "Update")</h2>
+        <h2>@Html.ActionLink("Delete Telephone", "Delete")</h2>
+    </div>
+</body>
+</html>

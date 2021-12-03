@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/bootstrap.css")" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div>
+        <ul class="menu">
+            <li>@Html.ActionLink("Main Page", "Index", "Dictionary")</li>
+            <li>@Html.ActionLink("Add Element", "Add", "Dictionary")</li>
+            <li>@Html.ActionLink("Update Element", "Update", "Dictionary")</li>
+            <li>@Html.ActionLink("Delete Element", "Delete", "Dictionary")</li>
+        </ul>
+        ------------------------------------------------------<br />
+    </div>
+    @RenderBody()
+    <footer>
+        ------------------------------------------------------<br />
+        @RenderSection("Footer")
+    </footer>
+</body>
+</html>

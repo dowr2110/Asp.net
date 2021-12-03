@@ -1,0 +1,17 @@
+﻿@using PIS_lr6.Helpers
+@{ 
+    Layout = "../Shared/DictionaryLayout.cshtml";
+    ViewBag.Title = "Add Telephone";
+}
+
+<h1>Add Telephone</h1>
+
+@using (Html.BeginForm("AddSave", "Dictionary", FormMethod.Post))
+{
+    @FormHelper.AddForm(Html);
+}
+
+@section Footer 
+{
+    I'm add footer.
+}

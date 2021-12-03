@@ -1,0 +1,23 @@
+﻿@{ 
+    Layout = null; 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add Telephone</title>
+</head>
+<body>
+    <h1>Add Telephone</h1>
+    @using (Html.BeginForm("AddSave", "Dict", FormMethod.Post))
+    {
+        <div>
+            <p> <b>Surname: </b><input type="text" id="surname" name="surname" /></p>
+            <p> <b>Number: </b><input type="text" id="number" name="number"></p>
+            <p><input type="submit"></p>
+        </div>
+    }
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIS_lr6", "PIS_lr6\PIS_lr6.csproj", "{FE4D313B-B009-4F91-968B-830643BE444A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{B7CA937E-C52E-49DA-91C4-75D74735CFCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE4D313B-B009-4F91-968B-830643BE444A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4D313B-B009-4F91-968B-830643BE444A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4D313B-B009-4F91-968B-830643BE444A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4D313B-B009-4F91-968B-830643BE444A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CA937E-C52E-49DA-91C4-75D74735CFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CA937E-C52E-49DA-91C4-75D74735CFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CA937E-C52E-49DA-91C4-75D74735CFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CA937E-C52E-49DA-91C4-75D74735CFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6AAE1CB-11A9-450A-8BB7-F11EB23AB9F8}
+	EndGlobalSection
+EndGlobal

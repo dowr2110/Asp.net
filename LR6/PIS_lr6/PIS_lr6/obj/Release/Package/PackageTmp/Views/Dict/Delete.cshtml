@@ -1,0 +1,33 @@
+﻿@using PIS_lr3.Models
+@{ 
+    Layout = null;
+    List<Telephone> telephones = ViewBag.Telephones; 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete Telephone</title>
+</head>
+<body>
+    <h1>Delete Telephone</h1>
+
+    <br/>
+    <h1>Telephones</h1> <br/>
+    @foreach (Telephone telephone in telephones)
+    {
+        <p>[@telephone.Id] @telephone.Surname - @telephone.Number</p>
+    }
+    <br/>
+
+    @using (Html.BeginForm("DeleteSave", "Dict", FormMethod.Post))
+    {
+        <div>
+            <p> <b>Id: </b> <input type="number" id="id" name="id" min="0"></p>
+            <p><input type="submit"></p>
+        </div>
+    }
+</body>
+</html>

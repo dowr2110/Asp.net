@@ -1,0 +1,25 @@
+﻿@using Storage
+@{ 
+    Layout = "../Shared/DictionaryLayout.cshtml";
+    ViewBag.Title = "Main Page";
+    List<Telephone> telephones = ViewBag.Telephones;
+}
+
+@helper WriteTelephoneList(List<Telephone> telephones)
+{
+    <tbody>
+        @foreach (Telephone telephone in telephones)
+        {
+            @Html.Partial("TelephoneNote", telephone)
+        }
+    </tbody>
+
+}
+
+@WriteTelephoneList(telephones); 
+
+@section Footer 
+{
+    I'm main footer.
+}
+
